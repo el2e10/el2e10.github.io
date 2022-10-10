@@ -1,4 +1,7 @@
 import Head from "next/head";
+import About from "../components/About";
+import Heading from "../components/Heading";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -12,7 +15,9 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <p>Hello world</p>
+      <Heading />
+      <About />
+      <Projects />
     </div>
   );
 }
