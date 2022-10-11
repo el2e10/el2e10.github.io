@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.imgStyle {
+  flex: 1;
+  background-color: black;
+  border-radius: 10px;
+  height: 300px;
+  /* background-color: green; */
+  /* order: 1; */
+}
+
+.detailContainer {
+  flex: 1;
+  /* background-color: green; */
+  /* order: 0; */
+}
+
+.dateStyle {
+  color: rgb(147, 142, 142);
+  font-size: small;
+  margin: 0px;
+}
+
+.detailStyle {
+}
+
+.titleStyle {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.technologyStyle {
+  display: flex;
+  gap: 16px;
+}

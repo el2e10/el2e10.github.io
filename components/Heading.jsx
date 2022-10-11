@@ -1,9 +1,11 @@
 import React from "react";
+import headingStyle from "../styles/Heading.module.css";
 
 const Heading = () => {
   return (
     <div>
-      <h1>Eldho Ittan george</h1>
+      <p className={headingStyle.hiStyle}>Hi I'm</p>
+      <h1 className={headingStyle.nameStyle}>Eldho Ittan george</h1>
     </div>
   );
 };

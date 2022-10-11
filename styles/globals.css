@@ -23,7 +23,7 @@ a {
   body {
     color: black;
     background-color: white;
-    background-image: url(../public/backgroud.svg);
+    background-image: url(../public/background.svg);
     padding: 64px;
   }
 }
