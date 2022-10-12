@@ -1,0 +1,12 @@
+.container {
+}
+
+.skillListContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.headingStyle {
+  font-size: 24pt;
+}
