@@ -2,9 +2,10 @@
 }
 
 .nameStyle {
-  font-size: 36pt;
+  font-size: 42pt;
   margin-top: 0px;
   padding-top: 0px;
+  /* text-transform: uppercase; */
 }
 
 .hiStyle {

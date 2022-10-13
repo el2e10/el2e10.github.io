@@ -38,7 +38,13 @@ const About = () => {
         </div>
         <div className={aboutStyle.cv_container}>
           <div className={aboutStyle.cv_box} />
-          <button>Curriculum Vitae</button>
+          <a
+            className={aboutStyle.resumeButton}
+            href="https://drive.google.com/file/d/1DaKbAEkl7huo01GVjIL5tdbhdmATkEX6/view?usp=sharing"
+            target="_blank"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </>

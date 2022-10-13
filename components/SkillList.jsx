@@ -1,14 +1,14 @@
 import React from "react";
 import Skill from "./Skill";
 import skillListStyle from "../styles/SkillList.module.css";
-import pythonImg from "../images/python.svg";
-import tensorflowImg from "../images/tensorflow.svg";
-import pandasImg from "../images/pandas.svg";
-import pytorchImg from "../images/pytorch.svg";
-import sklearnImg from "../images/scikit-learn.svg";
-import mongodbImg from "../images/mongodb.svg";
-import reactImg from "../images/react.svg";
-import jsImg from "../images/js.svg";
+import pythonImg from "../public/images/python.svg";
+import tensorflowImg from "../public/images/tensorflow.svg";
+import pandasImg from "../public/images/pandas.svg";
+import pytorchImg from "../public/images/pytorch.svg";
+import sklearnImg from "../public/images/scikit-learn.svg";
+import mongodbImg from "../public/images/mongodb.svg";
+import reactImg from "../public/images/react.svg";
+import jsImg from "../public/images/js.svg";
 
 const SkillList = () => {
   return (

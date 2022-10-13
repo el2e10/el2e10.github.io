@@ -1,23 +1,25 @@
 import React from "react";
 import projectListStyle from "../styles/ProjectList.module.css";
 import Project from "./Project";
+import mitsChatbotImage from "../public/images/Maac.jpg";
 
 const ProjectList = () => {
   return (
     <div className={projectListStyle.container}>
       <h1 className={projectListStyle.headingStyle}>Projects</h1>
       <Project
-        title="F Mangaer"
+        title="MITS Chatbot"
         id={1}
-        date="May - December 2019"
+        date="April - July 2022"
         details="A web application that helps to manage your class Scheduling and
           Deadlines. It is a full solution with Admin and Client Interface to
           keep everything related to assignment and exam notices and class links
           and info in one place. It is being used by my classmates 50+ members
           are using regularly. It made their life easier and hazzle free"
-        technologies={["git", "java", "python"]}
+        technologies={["Python", "GCP", "NLP", "Scikit-learn"]}
+        image={mitsChatbotImage}
       />
-      <Project
+      {/* <Project
         title="F Mangaer"
         id={2}
         date="May - December 2019"
@@ -40,7 +42,7 @@ const ProjectList = () => {
           are using regularly. It made their life easier and hazzle free
  "
         technologies={["git", "java", "python"]}
-      />
+      /> */}
       {/* <div>
         <h3>MITS Chatbot</h3>
         <h6>May - December 2019</h6>

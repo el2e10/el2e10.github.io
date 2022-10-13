@@ -22,8 +22,9 @@ a {
   }
   body {
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     background-image: url(../public/background.svg);
-    padding: 64px;
+    /* padding: 64px; */
+    margin: 128px;
   }
 }
