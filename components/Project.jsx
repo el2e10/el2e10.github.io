@@ -1,5 +1,4 @@
 import React from "react";
-import projectStyle from "../styles/Project.module.css";
 import TechnologyItem from "./TechnologyItem";
 import Image from "next/image";
 

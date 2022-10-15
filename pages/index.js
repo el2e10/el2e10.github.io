@@ -3,6 +3,7 @@ import About from "../components/About";
 import SkillList from "../components/SkillList";
 import Heading from "../components/Heading";
 import ProjectsList from "../components/ProjectList";
+import WorkList from "../components/WorkList";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <Heading />
       <About />
+      <WorkList />
       <SkillList />
       <ProjectsList />
     </div>
