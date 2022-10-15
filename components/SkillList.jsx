@@ -12,10 +12,9 @@ import jsImg from "../public/images/js.svg";
 
 const SkillList = () => {
   return (
-    <div className={skillListStyle.container}>
-      <h1 className={skillListStyle.headingStyle}>Skills</h1>
-      <div className={skillListStyle.skillListContainer}>
-        <Skill url="https://www.python.org/" icon={pythonImg} />
+    <div className="flex flex-col mt-6 space-y-3">
+      <p className="text-4xl underline font-semibold">Skills</p>
+      <div className="flex flex-row space-x-8">
         <Skill url="https://www.tensorflow.org/" icon={tensorflowImg} />
         <Skill url="https://pandas.pydata.org/" icon={pandasImg} />
         <Skill url="https://pytorch.org/" icon={pytorchImg} />
@@ -23,6 +22,7 @@ const SkillList = () => {
         <Skill url="https://www.mongodb.com/" icon={mongodbImg} />
         <Skill url="https://reactjs.org/" icon={reactImg} />
         <Skill url="https://www.javascript.com/" icon={jsImg} />
+        <Skill url="https://www.python.org/" icon={pythonImg} />
       </div>
     </div>
   );

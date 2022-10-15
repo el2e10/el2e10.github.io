@@ -4,9 +4,13 @@ import Image from "next/image";
 
 const Skill = ({ icon, url }) => {
   return (
-    <div className={skillStyle.container}>
-      <a href={url} target="_blank">
-        <Image src={icon} width={64} height={64} />
+    <div>
+      <a
+        href={url}
+        target="_blank"
+        className="w-16 h-16 flex justify-center items-center"
+      >
+        <Image src={icon} />
       </a>
     </div>
   );

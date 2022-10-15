@@ -7,15 +7,15 @@ const Project = (props) => {
   const { image, title, date, details, technologies, link, id } = props;
 
   return (
-    <div className={projectStyle.container}>
-      <div className={projectStyle.imgStyle}>
-        <Image src={image} />
+    <div className="flex flex-row space-x-8">
+      <div className="flex-1">
+        <Image src={image} className="rounded-md" />
       </div>
-      <div className={projectStyle.detailContainer}>
-        <h2 className={projectStyle.titleStyle}>{title}</h2>
-        <p className={projectStyle.dateStyle}>{date}</p>
-        <p className={projectStyle.detailStyle}>{details}</p>
-        <div className={projectStyle.technologyStyle}>
+      <div className="flex-1">
+        <h3 className="text-xl font-medium">{title}</h3>
+        <p className="text-xs text-slate-400 font-light">{date}</p>
+        <p className="pt-2 font-normal">{details}</p>
+        <div className="flex pt-2 space-x-2">
           {technologies.map((technology) => {
             return <TechnologyItem text={technology} />;
           })}
@@ -26,15 +26,3 @@ const Project = (props) => {
 };
 
 export default Project;
-
-// className={
-//   id % 2 == 0
-//     ? { ...projectStyle.imgStyle, order: 1 }
-//     : { ...projectStyle.imgStyle, order: 0 }
-// }
-
-// className={
-//   id % 2 == 0
-//     ? { ...projectStyle.detailContainer, order: 0 }
-//     : { ...projectStyle.detailContainer, order: 1 }
-// }

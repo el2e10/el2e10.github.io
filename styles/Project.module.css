@@ -1,18 +1,17 @@
 .container {
   display: flex;
-  gap: 16px;
+  gap: 32px;
   align-items: stretch;
 }
 
 .imgStyle {
   flex: 1;
-  border-width: 0px;
+  /* background-color: white; */
+  border-radius: 8px;
 }
 
 .detailContainer {
   flex: 1;
-  /* background-color: green; */
-  /* order: 0; */
 }
 
 .dateStyle {
