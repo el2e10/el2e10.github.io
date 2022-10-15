@@ -12,9 +12,9 @@ import jsImg from "../public/images/js.svg";
 
 const SkillList = () => {
   return (
-    <div className="flex flex-col mt-6 space-y-3">
+    <div className="flex flex-col mt-6 space-y-4">
       <p className="text-4xl underline font-semibold">Skills</p>
-      <div className="flex flex-row space-x-8">
+      <div className="flex flex-row space-x-4">
         <Skill url="https://www.tensorflow.org/" icon={tensorflowImg} />
         <Skill url="https://pandas.pydata.org/" icon={pandasImg} />
         <Skill url="https://pytorch.org/" icon={pytorchImg} />

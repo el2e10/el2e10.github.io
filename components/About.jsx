@@ -38,7 +38,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-1 flex-col space-y-4">
+        <div className="flex flex-1 gap-4 flex-col">
           <div className={aboutStyle.cv_box} />
           <a
             className="bg-slate-900 rounded-2xl p-2 text-white text-sm text-center"
