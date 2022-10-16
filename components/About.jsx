@@ -1,12 +1,13 @@
 import React from "react";
-import aboutStyle from "../styles/About.module.css";
+import resumeThumbnail from "../public/images/Resume_thumbnail.jpg";
+import Image from "next/image";
 
 const About = () => {
   return (
     <div className="mt-6 space-y-3">
       <p className="text-4xl underline font-semibold">About Me</p>
       <div className="flex space-x-8">
-        <div className="flex-2">
+        <div className="flex-3">
           <p>
             I am passionate about Machine Learning especially, NLP. My
             background is in Artificial Intelligence and Data Science. Currently
@@ -23,8 +24,13 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-1 gap-4 flex-col">
-          <div className={aboutStyle.cv_box} />
+        <div className="flex flex-2 gap-4 flex-col">
+          {/* <div className={aboutStyle.cv_box} /> */}
+          <Image
+            src={resumeThumbnail}
+            title="Resume"
+            alt="Thumbnail of resume"
+          />
           <a
             className="bg-slate-900 rounded-2xl p-2 text-white text-sm text-center"
             href="https://drive.google.com/file/d/1DaKbAEkl7huo01GVjIL5tdbhdmATkEX6/view?usp=sharing"

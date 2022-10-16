@@ -8,7 +8,12 @@ const Project = (props) => {
   return (
     <div className="flex flex-row space-x-8">
       <div className="flex-1">
-        <Image src={image} className="rounded-md" />
+        <Image
+          src={image}
+          className="rounded-md"
+          title={title}
+          alt={"Image of the project" + title}
+        />
       </div>
       <div className="flex-1">
         <h3 className="text-xl font-medium">{title}</h3>
@@ -18,7 +23,6 @@ const Project = (props) => {
             return <li className="pt-2 font-normal">{detail}</li>;
           })}
         </ul>
-        {/* <p className="pt-2 font-normal">{details}</p> */}
         <div className="flex pt-2 space-x-2">
           {technologies.map((technology) => {
             return <TechnologyItem text={technology} />;
