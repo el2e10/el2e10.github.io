@@ -15,14 +15,34 @@ const SkillList = () => {
     <div className="flex flex-col mt-6 space-y-4">
       <p className="text-4xl underline font-semibold">Skills</p>
       <div className="flex flex-row space-x-4">
-        <Skill url="https://www.tensorflow.org/" icon={tensorflowImg} />
-        <Skill url="https://pandas.pydata.org/" icon={pandasImg} />
-        <Skill url="https://pytorch.org/" icon={pytorchImg} />
-        <Skill url="https://scikit-learn.org/stable/" icon={sklearnImg} />
-        <Skill url="https://www.mongodb.com/" icon={mongodbImg} />
-        <Skill url="https://reactjs.org/" icon={reactImg} />
-        <Skill url="https://www.javascript.com/" icon={jsImg} />
-        <Skill url="https://www.python.org/" icon={pythonImg} />
+        <Skill
+          url="https://www.tensorflow.org/"
+          icon={tensorflowImg}
+          title="TensorFlow"
+        />
+        <Skill
+          url="https://pandas.pydata.org/"
+          icon={pandasImg}
+          title="Pandas"
+        />
+        <Skill url="https://pytorch.org/" icon={pytorchImg} title="PyTorch" />
+        <Skill
+          url="https://scikit-learn.org/stable/"
+          icon={sklearnImg}
+          title="Scikit-Learn"
+        />
+        <Skill
+          url="https://www.mongodb.com/"
+          icon={mongodbImg}
+          title="MongoDB"
+        />
+        <Skill url="https://reactjs.org/" icon={reactImg} title="ReactJS" />
+        <Skill
+          url="https://www.javascript.com/"
+          icon={jsImg}
+          title="Javascript"
+        />
+        <Skill url="https://www.python.org/" icon={pythonImg} title="Python" />
       </div>
     </div>
   );

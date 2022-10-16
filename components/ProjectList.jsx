@@ -11,12 +11,17 @@ const ProjectList = () => {
           title="MITS Chatbot"
           id={1}
           date="April - July 2022"
-          details="A web application that helps to manage your class Scheduling and
-          Deadlines. It is a full solution with Admin and Client Interface to
-          keep everything related to assignment and exam notices and class links
-          and info in one place. It is being used by my classmates 50+ members
-          are using regularly. It made their life easier and hazzle free"
-          technologies={["Python", "GCP", "NLP", "Scikit-learn"]}
+          details={[
+            " Led and developed a team to create a chatbot for the college Muthoot Institute of Technology & Science (mgmits.ac.in) to reduce telephonic enquiries.",
+            "Successfully deployed the chatbot on the Muthoot Institute of Technology & Science website, which significantly reduced telephonic enquiries.",
+          ]}
+          technologies={[
+            "Python",
+            "GCP",
+            "NLP",
+            "Scikit-learn",
+            "Deep Learning",
+          ]}
           image={mitsChatbotImage}
         />
       </div>
