@@ -9,7 +9,7 @@ const ProjectList = () => {
       <div>
         <Project
           title="MITS Chatbot"
-          id={1}
+          key={1}
           date="April - July 2022"
           details={[
             " Led and developed a team to create a chatbot for the college Muthoot Institute of Technology & Science (mgmits.ac.in) to reduce telephonic enquiries.",

@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+          url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap");
         </style>
       </Head>
       <Heading />

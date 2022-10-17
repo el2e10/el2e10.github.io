@@ -7,9 +7,10 @@ const Skill = ({ icon, url, title }) => {
       <a
         href={url}
         target="_blank"
+        rel="noreferrer"
         className="w-16 h-16 flex justify-center items-center"
       >
-        <Image src={icon} title={title} />
+        <Image src={icon} title={title} alt={"Logo of " + title} />
       </a>
     </div>
   );

@@ -18,8 +18,8 @@ const About = () => {
           </p>
           <ul className="list-disc list-inside mt-2">
             <li className="mt-1">
-              🧑‍🎓 I am a graduate with a Master's in Artificiall Intelligence and
-              Machine Learning
+              🧑‍🎓 I am a graduate with a Master&apos;s in Artificiall
+              Intelligence and Machine Learning
             </li>
             <li className="mt-1">
               🏠 Keral native, with a passionate for Artificiall Intelligence
@@ -27,7 +27,7 @@ const About = () => {
             </li>
             <li className="mt-1">
               👨‍💻 Previously I worked as a Machine Learning Intern at TCS for 6
-              months. At TCS I worked on bulilding an NLP chatbot for website.{" "}
+              months. At TCS I worked on bulilding an NLP chatbot for website.
             </li>
             <li className="mt-1">
               👨‍💻 I also worked as a Data Analyst/Software Engineer at Envelor
@@ -47,12 +47,12 @@ const About = () => {
             src={resumeThumbnail}
             title="Resume"
             alt="Thumbnail of resume"
-            // height={300}
           />
           <a
             className="bg-slate-900 rounded-2xl p-2 text-white text-sm text-center"
             href="https://drive.google.com/file/d/1DaKbAEkl7huo01GVjIL5tdbhdmATkEX6/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             Resume
           </a>

@@ -7,6 +7,7 @@ const WorkList = () => {
       <h1 className="text-4xl underline font-semibold">Work Experiance</h1>
       <div className="flex gap-y-4 flex-col">
         <Work
+          key={1}
           company="Collaborative Learning Labs(Collabll)"
           date="July, 2021 - Present"
           details={[
@@ -17,6 +18,7 @@ const WorkList = () => {
           technologies={["Python", "NLP", "Haystack", "Huggigface"]}
         />
         <Work
+          key={2}
           company="Tata Consultancy Services(TCS)"
           date="Nov, 2021 - May, 2022"
           details={[
@@ -27,6 +29,7 @@ const WorkList = () => {
           technologies={["Python", "Pytorch", "NLP", "Haystack", "Huggigface"]}
         />
         <Work
+          key={3}
           company="Envelor Corporation"
           date="February, 2020 - December, 2020"
           details={[
@@ -37,6 +40,7 @@ const WorkList = () => {
           technologies={["Python", "PowerBI", "Google Data Studio", "PHP"]}
         />
         <Work
+          key={5}
           company="Sanesquare Technologies"
           date="July, 2020 - November, 2020"
           details={[
