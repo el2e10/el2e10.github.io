@@ -12,7 +12,7 @@ const ProjectList = () => {
           key={1}
           date="April - July 2022"
           details={[
-            " Led and developed a team to create a chatbot for the college Muthoot Institute of Technology & Science (mgmits.ac.in) to reduce telephonic enquiries.",
+            " Lead a team for creating a chatbot for the college Muthoot Institute of Technology & Science (mgmits.ac.in) to reduce telephonic enquiries.",
             "Successfully deployed the chatbot on the Muthoot Institute of Technology & Science website, which significantly reduced telephonic enquiries.",
           ]}
           technologies={[

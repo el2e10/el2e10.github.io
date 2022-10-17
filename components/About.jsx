@@ -9,25 +9,25 @@ const About = () => {
       <div className="flex space-x-8">
         <div className="flex-3">
           <p>
-            I am passionate about Machine Learning especially, NLP. My
-            background is in Artificial Intelligence and Data Science. Currently
-            I am working as an AI Research Intern at collabll. I am working on
-            creating a question answering system for Indian law. This enables
-            user to search for any particular law related to their issues. The
-            question answering system works with most of the indic languages.
+            I am Machine Learning enthusiast and researcher. My background is in
+            Artificial Intelligence and Data Science. Currently, I am working as
+            an AI Research Intern at collabll. I am working on creating a
+            question-answering system for Indian law. This enables the user to
+            search for any particular law related to their issues. The question
+            answering-system works with most of the Indic languages.
           </p>
           <ul className="list-disc list-inside mt-2">
             <li className="mt-1">
-              🧑‍🎓 I am a graduate with a Master&apos;s in Artificiall
-              Intelligence and Machine Learning
+              🧑‍🎓 I am a graduate with a Master&apos;s in Artificial Intelligence
+              and Machine Learning
             </li>
             <li className="mt-1">
-              🏠 Keral native, with a passionate for Artificiall Intelligence
+              🏠 Kerala native, with a passion for Artificial Intelligence
               especially in NLP
             </li>
             <li className="mt-1">
               👨‍💻 Previously I worked as a Machine Learning Intern at TCS for 6
-              months. At TCS I worked on bulilding an NLP chatbot for website.
+              months. At TCS I worked on building an NLP chatbot for a website.
             </li>
             <li className="mt-1">
               👨‍💻 I also worked as a Data Analyst/Software Engineer at Envelor
@@ -35,10 +35,10 @@ const About = () => {
             </li>
             <li className="mt-1">
               🔮 As for my future, I hope to one day work as an AI researcher in
-              an AI focued company
+              an AI focused company
             </li>
             <li className="mt-1">
-              ⛰️ In my free time, I read fantacy and fiction books
+              ⛰️ In my free time, I read fantasy and fiction books
             </li>
           </ul>
         </div>

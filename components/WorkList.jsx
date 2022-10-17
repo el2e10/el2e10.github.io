@@ -20,7 +20,7 @@ const WorkList = () => {
         <Work
           key={2}
           company="Tata Consultancy Services(TCS)"
-          date="Nov, 2021 - May, 2022"
+          date="November, 2021 - May, 2022"
           details={[
             "Worked with a senior machine learning engineer to build a chatbot that used NLP to retrieve information from websites.",
             "The chatbot was able to reduce the time users spend on websites searching for information.",
