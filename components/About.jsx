@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="mt-6 space-y-3">
+    <div className="mt-8 space-y-3 mx-8 md:mx-16 lg:mx-32">
       <p className="text-4xl underline font-semibold">About Me</p>
-      <div className="flex space-x-8">
+      <div className="flex space-x-8 flex-col lg:flex-row md:flex-col">
         <div className="flex-3">
           <p>
             I am Machine Learning enthusiast and researcher. My background is in
@@ -43,13 +43,14 @@ const About = () => {
           </ul>
         </div>
         <div className="flex flex-2 gap-4 flex-col">
-          <Image
+          {/* <Image
             src={resumeThumbnail}
             title="Resume"
+            className="disabled md:invisible lg:visible"
             alt="Thumbnail of resume"
-          />
+          /> */}
           <a
-            className="bg-slate-900 rounded-2xl p-2 text-white text-sm text-center"
+            className="bg-slate-900 rounded-2xl p-2 text-white text-sm text-center mt-6 lg:mt-2"
             href="https://drive.google.com/file/d/1DaKbAEkl7huo01GVjIL5tdbhdmATkEX6/view?usp=sharing"
             target="_blank"
             rel="noreferrer"

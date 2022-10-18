@@ -15,7 +15,7 @@ export const Work = ({ company, date, details, technologies, key }) => {
           );
         })}
       </ul>
-      <div className="flex space-x-2 pt-2">
+      <div className="grid grid-rows-2 grid-cols-3 pt-2 gap-x-2 gap-y-2 md:flex">
         {technologies.map((technology) => {
           return <TechnologyItem key={key} text={technology} />;
         })}

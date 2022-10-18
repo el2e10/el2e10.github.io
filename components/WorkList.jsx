@@ -3,7 +3,7 @@ import Work from "./Work";
 
 const WorkList = () => {
   return (
-    <div className="flex flex-col mt-6 space-y-4">
+    <div className="flex flex-col mt-8 space-y-4 mx-8 md:mx-16 lg:mx-32">
       <h1 className="text-4xl underline font-semibold">Work Experiance</h1>
       <div className="flex gap-y-4 flex-col">
         <Work
