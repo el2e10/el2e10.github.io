@@ -4,7 +4,7 @@ import TechnologyItem from "./TechnologyItem";
 export const Work = ({ company, date, details, technologies, key }) => {
   return (
     <div className="flex flex-col">
-      <h3 className="text-xl font-medium">{company}</h3>
+      <h3 className="text-lg md:text-xl lg:text-xl font-semibold">{company}</h3>
       <p className="text-xs text-slate-600 font-light">{date}</p>
       <ul className="list-disc list-inside mt-2">
         {details.map((detail) => {

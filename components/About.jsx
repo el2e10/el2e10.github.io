@@ -1,12 +1,14 @@
 import React from "react";
-import resumeThumbnail from "../public/images/Resume_thumbnail.jpg";
 import Image from "next/image";
+import resumeThumbnail from "../public/images/Resume_thumbnail.jpg";
 
 const About = () => {
   return (
-    <div className="mt-8 space-y-3 mx-8 md:mx-16 lg:mx-32">
-      <p className="text-4xl underline font-semibold">About Me</p>
-      <div className="flex space-x-8 flex-col lg:flex-row md:flex-col">
+    <div className="mt-8 space-y-3 mx-8 md:mx-16 lg:mx-32 lg:px-32">
+      <p className="text-2xl md:text-4xl lg:text-4xl underline font-bold">
+        About Me
+      </p>
+      <div className="flex lg:space-x-8 flex-col lg:flex-row md:flex-col">
         <div className="flex-3">
           <p>
             I am Machine Learning enthusiast and researcher. My background is in
@@ -42,11 +44,11 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-2 gap-4 flex-col">
+        <div className="flex flex-2 flex-col">
           {/* <Image
             src={resumeThumbnail}
             title="Resume"
-            className="disabled md:invisible lg:visible"
+            className="collapse"
             alt="Thumbnail of resume"
           /> */}
           <a

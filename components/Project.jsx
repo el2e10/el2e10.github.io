@@ -16,7 +16,7 @@ const Project = (props) => {
         />
       </div>
       <div className="md:flex-1 lg:flex-1">
-        <h3 className="text-xl font-medium">{title}</h3>
+        <h3 className="text-lg md:text-xl lg:text-xl font-semibold">{title}</h3>
         <p className="text-xs text-slate-400 font-light">{date}</p>
         <ul className="list-disc list-inside mt-2">
           {details.map((detail) => {

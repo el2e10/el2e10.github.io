@@ -4,8 +4,10 @@ import mitsChatbotImage from "../public/images/Maac.jpg";
 
 const ProjectList = () => {
   return (
-    <div className="flex flex-col mt-8 space-y-4 mx-8 md:mx-16 lg:mx-32 mb-16">
-      <p className="text-4xl space-x-8 underline font-semibold">Projects</p>
+    <div className="flex flex-col mt-8 space-y-4 mx-8 md:mx-16 lg:mx-32 mb-16 lg:px-32">
+      <p className="text-2xl md:text-4xl lg:text-4xl space-x-8 underline font-bold">
+        Projects
+      </p>
       <div>
         <Project
           title="MITS Chatbot"

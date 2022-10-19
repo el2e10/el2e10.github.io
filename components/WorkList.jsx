@@ -3,8 +3,10 @@ import Work from "./Work";
 
 const WorkList = () => {
   return (
-    <div className="flex flex-col mt-8 space-y-4 mx-8 md:mx-16 lg:mx-32">
-      <h1 className="text-4xl underline font-semibold">Work Experiance</h1>
+    <div className="flex flex-col mt-8 space-y-4 mx-8 md:mx-16 lg:mx-32 lg:px-32">
+      <h1 className="text-2xl md:text-4xl lg:text-4xl underline font-bold">
+        Work Experiance
+      </h1>
       <div className="flex gap-y-4 flex-col">
         <Work
           key={1}
@@ -15,7 +17,7 @@ const WorkList = () => {
             "Improved existing language translation models to work with Indic languages for the legal domain by implementing new algorithms and methods.",
             "Created an efficient way to extract relevant Indian law by developing a new information retrieval system.",
           ]}
-          technologies={["Python", "NLP", "Haystack", "Huggigface"]}
+          technologies={["Python", "NLP", "Haystack", "Hugging Face"]}
         />
         <Work
           key={2}
@@ -26,7 +28,13 @@ const WorkList = () => {
             "The chatbot was able to reduce the time users spend on websites searching for information.",
             "The project was successful and the website users were able to find information faster.",
           ]}
-          technologies={["Python", "Pytorch", "NLP", "Haystack", "Huggigface"]}
+          technologies={[
+            "Python",
+            "Pytorch",
+            "NLP",
+            "Haystack",
+            "Hugging Face",
+          ]}
         />
         <Work
           key={3}
