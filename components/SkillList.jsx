@@ -9,15 +9,15 @@ import sklearnImg from "../public/images/scikit-learn.svg";
 import mongodbImg from "../public/images/mongodb.svg";
 import reactImg from "../public/images/react.svg";
 import jsImg from "../public/images/js.svg";
+import flaskImg from "../public/images/flask.svg";
 
 const SkillList = () => {
   return (
-    <div className="flex flex-col mt-8 space-y-4 mx-8 md:mx-16 lg:mx-32 lg:px-32">
+    <div className="flex flex-col mt-8 md:mt-16 space-y-4 mx-8 md:mx-16 lg:mx-32 lg:px-32">
       <p className="text-2xl md:text-4xl lg:text-4xl underline font-semibold">
         Skills
       </p>
-      <div className="grid grid-cols-4 grid-rows-2 gap-y-8 md:grid-cols-8 md:grid-rows-1 lg:grid-cols-8 lg:grid-rows-1">
-        {/* <div className="flex flex-row space-x-4"> */}
+      <div className="grid grid-cols-3 grid-rows-3 gap-y-8 md:grid-cols-8 md:grid-rows-1 lg:grid-cols-8 lg:grid-rows-1">
         <Skill
           url="https://www.tensorflow.org/"
           icon={tensorflowImg}
@@ -38,6 +38,11 @@ const SkillList = () => {
           url="https://www.mongodb.com/"
           icon={mongodbImg}
           title="MongoDB"
+        />
+        <Skill
+          url="https://flask.palletsprojects.com/en/2.2.x/"
+          icon={flaskImg}
+          title="Flask"
         />
         <Skill url="https://reactjs.org/" icon={reactImg} title="ReactJS" />
         <Skill

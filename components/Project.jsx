@@ -6,8 +6,8 @@ const Project = (props) => {
   const { image, title, date, details, technologies, link, key } = props;
 
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row space-x-0 md:space-x-8 lg:space-x-8 ">
-      <div className="md:flex-1 lg:flex-1">
+    <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 lg:grid-cols-2 md:space-x-8 lg:space-x-8">
+      <div>
         <Image
           src={image}
           className="rounded-md"
@@ -15,7 +15,7 @@ const Project = (props) => {
           alt={"Image of the project" + title}
         />
       </div>
-      <div className="md:flex-1 lg:flex-1">
+      <div>
         <h3 className="text-lg md:text-xl lg:text-xl font-semibold">{title}</h3>
         <p className="text-xs text-slate-400 font-light">{date}</p>
         <ul className="list-disc list-inside mt-2">
@@ -27,7 +27,7 @@ const Project = (props) => {
             );
           })}
         </ul>
-        <div className="grid grid-rows-2 grid-cols-3 pt-2 gap-x-2 gap-y-2">
+        <div className="flex flex-wrap gap-x-2 gap-y-2 mt-3">
           {technologies.map((technology) => {
             return <TechnologyItem key={key} text={technology} />;
           })}

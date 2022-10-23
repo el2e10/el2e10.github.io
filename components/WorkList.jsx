@@ -3,11 +3,11 @@ import Work from "./Work";
 
 const WorkList = () => {
   return (
-    <div className="flex flex-col mt-8 space-y-4 mx-8 md:mx-16 lg:mx-32 lg:px-32">
+    <div className="flex flex-col mt-8 md:mt-16 space-y-4 mx-8 md:mx-16 lg:mx-32 lg:px-32">
       <h1 className="text-2xl md:text-4xl lg:text-4xl underline font-bold">
         Work Experiance
       </h1>
-      <div className="flex gap-y-4 flex-col">
+      <div className="flex gap-y-4 md:gap-y-8 flex-col">
         <Work
           key={1}
           company="Collaborative Learning Labs(Collabll)"
