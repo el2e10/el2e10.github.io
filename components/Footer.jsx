@@ -13,11 +13,7 @@ const Footer = () => {
         >
           <AiFillMail className="w-6 h-6" />
         </a>
-        <a
-          href="https://github.com/eldhoittangeorge"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/el2e10" target="_blank" rel="noreferrer">
           <AiFillGithub className="w-6 h-6" />
         </a>
         <a

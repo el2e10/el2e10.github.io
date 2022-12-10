@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="lg:mx-36">
+    <div className="lg:mx-16">
       <Head>
         <title>el2e10</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />

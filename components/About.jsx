@@ -3,7 +3,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div className="mt-8 space-y-3 mx-8 md:mx-16 lg:mx-32 lg:px-32">
+    <div className="mt-8 space-y-3 mx-8 md:mx-16 lg:mx-32 lg:px-24">
       <p className="text-2xl md:text-4xl lg:text-4xl underline font-bold">
         About Me
       </p>

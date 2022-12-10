@@ -13,7 +13,7 @@ import flaskImg from "../public/images/flask.svg";
 
 const SkillList = () => {
   return (
-    <div className="flex flex-col mt-8 md:mt-16 space-y-4 mx-8 md:mx-16 lg:mx-32 lg:px-32">
+    <div className="flex flex-col mt-8 md:mt-16 space-y-4 mx-8 md:mx-16 lg:mx-32 lg:px-24">
       <p className="text-2xl md:text-4xl lg:text-4xl underline font-semibold">
         Skills
       </p>

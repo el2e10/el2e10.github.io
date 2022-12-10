@@ -5,7 +5,7 @@ import legalQAImage from "../public/images/LegalQA.png";
 
 const ProjectList = () => {
   return (
-    <div className="flex flex-col mt-8 md:mt-16 space-y-6 mx-8 md:mx-16 lg:mx-32 mb-16 lg:px-32">
+    <div className="flex flex-col mt-8 md:mt-16 space-y-6 mx-8 md:mx-16 lg:mx-32 mb-16 lg:px-24">
       <p className="text-2xl md:text-4xl lg:text-4xl space-x-8 underline font-bold">
         Projects
       </p>
