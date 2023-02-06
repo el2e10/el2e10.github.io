@@ -9,13 +9,10 @@ const About = () => {
       </p>
       <div className="flex flex-col">
         <p>
-          I am Machine Learning enthusiast and researcher. My background is in
-          Artificial Intelligence and Data Science. Currently, I am working as
-          an AI Research Intern at collabll. I am working on creating a
-          question-answering system for Indian law. This enables the user to
-          search for any particular law related to their issues. The question
-          answering-system works with most of the Indic languages.
-        </p>
+        I am Machine Learning Engineer. My background is in Artificial Intelligence and Data Science. 
+        Currently, I am working as an AI Research Engineer at Collabll. I am developing a question-answering
+        system for Indian law that enables users to search for any particular law related to their issues.
+        The question-answering system works with most Indic languages.</p>
         <ul className="list-disc list-inside mt-2">
           <li className="mt-1">
             🧑‍🎓 I am a graduate with a Master&apos;s in Artificial Intelligence
