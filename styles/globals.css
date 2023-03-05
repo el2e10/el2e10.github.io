@@ -7,8 +7,8 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
   /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-family: "JetBrains Mono", monospace;
-  color: black;
-  background-color: whitesmoke;
+  color: white;
+  background-color: rgb(1, 2, 46);
   background-image: url(../public/images/background.svg);
   /* margin: 128px;
   margin-top: 64px; */

@@ -38,10 +38,10 @@ const About = () => {
             ⛰️ In my free time, I read fantasy and fiction books
           </li>
         </ul>
-        <div className="flex flex-row justify-center items-center gap-x-2 border-2 border-slate-900 rounded-2xl p-2 mt-3">
+        <div className="flex flex-row justify-center items-center gap-x-2 border-2 border-white rounded-2xl p-2 mt-3">
           <FiExternalLink />
           <a
-            className="text-slate-900 text-md font-bold"
+            className="text-white text-md font-bold"
             href="https://drive.google.com/file/d/1DaKbAEkl7huo01GVjIL5tdbhdmATkEX6/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
