@@ -1,0 +1,97 @@
+.container {
+	display:flex;
+	gap: 16px;
+	height: 100%;
+	margin: 0px 256px 0px 256px;
+	flex-direction: column;
+	font-family: sans-serif; 
+	justify-content: center;
+}
+
+.heading-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.heading {
+	font-size: 3.75rem; 
+	line-height: 1;
+	margin: 0px;
+}
+
+p.handle {
+	color: rgb(148 163 184);
+	margin: 0px;
+}
+
+.description{
+	margin:0px;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
+
+.logo-container {
+	display: flex;
+	gap: 16px;
+}
+
+.logo {
+	width: 32px;
+	height: 32px;
+}
+
+@media (min-width: 320px) and (max-width: 766px){
+
+	.container {
+		display:flex;
+		gap: 16px;
+		height: 100%;
+		margin: 0px 32px 0px 32px;
+		flex-direction: column;
+		font-family: sans-serif; 
+		justify-content: center;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+	.container {
+		display:flex;
+		gap: 16px;
+		height: 100%;
+		margin: 0px 64px 0px 64px;
+		flex-direction: column;
+		font-family: sans-serif; 
+		justify-content: center;
+	}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+	.container {
+		display:flex;
+		gap: 16px;
+		height: 100%;
+		margin: 0px 128px 0px 128px;
+		flex-direction: column;
+		font-family: sans-serif; 
+		justify-content: center;
+	}
+
+	.heading{
+		font-size: 5rem; 
+		line-height: 1;
+	}
+
+	.description{
+		margin:0px;
+		font-size: 3.5rem; /* 72px */
+		line-height: 1;
+
+	}
+
+	p.handle {
+		font-size: 2.25rem; /* 36px */
+		line-height: 2.5rem; 
+	}
+}
