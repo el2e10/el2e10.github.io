@@ -1,24 +1,45 @@
 <html>
 	<head>
-	<title>el2e10</title>
+		<title>el2e10</title>
 		<link rel="stylesheet"  href="css/style.css">
+		<script src="js/script.js"></script>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 	</head>
-	<body class="container flex flex-col h-fit gap-8 lg:gap-4 m-16 lg:m-64 justify-center">
-		<div class="heading-container">
-			<h1 class="heading text-8xl lg:text-6xl font-bold">Hi,</h1>
-			<p class="handle text-slate-400 font-light text-4xl lg:text-base">@el2e10</p>
-		</div>
-		<p class="description text-7xl lg:text-3xl">
-			I'm a software engineer at AI4Bharat, working on an open-source data collection platform. This infrastructure is currently facilitating a nationwide data collection project. My interests include computer science, and I'm kinda getting into farming too.
-		</p>
-		<div class="logo-container flex gap-8 lg:gap-4">
-			<a href="https://github.com/el2e10" target="_blank">
-				<img class="logo w-14 h-14 lg:w-8 lg:h-8" src="images/x-icon.svg">
-			</a>
-			<a href="https://x.com/el2e10" target="_blank">
-				<img class="logo w-14 h-14 lg:w-8 lg:h-8" src="images/github-icon.svg">
-			</a>
-		</div>
+
+	<body class="main-container">
+		<nav class="nav-container">
+			<ul class="nav-list">
+				<a id="home-nav" href="#home">Home</a>
+				<a id="project-nav" href="#project">Projects</a>
+			</ul>
+		</nav>
+		
+		<section class="content project-container" id="project">
+			<!-- <h2 class="project-heading">projects</h2> -->
+			<div>
+				<div class="project-title-section">
+					<h3 style="margin:0px">elgrad</h3>
+					<a href="https://github.com/el2e10/elgrad" target="_blank">
+						<img class="logo" src="images/github-icon.svg">
+					</a>
+				</div>
+				<p class="project-description">
+					A deep learning framework to teach myself in depth about AI and DL. It started with the foundational code from Andrej Karpathy's micrograd, and I drew further inspiration from George Hotz's tinygrad project.
+				</p>
+			</div>
+		</section>
+<section class="content home-container" id="home">
+			<p class="description">
+				I'm a software engineer at AI4Bharat, where I'm developing an open-source data collection platform that supports a nationwide data collection initiative. As a side project, I'm also working on a <a style="text-decoration: underline;" href="https://github.com/el2e10/elgrad">deep learning framework</a> to deepen my own understanding of DL from the ground up. 
+			</p>
+			<div class="logo-container">
+				<a href="https://github.com/el2e10" target="_blank">
+					<img class="logo" src="images/github-icon.svg">
+				</a>
+				<a href="https://x.com/el2e10" target="_blank">
+					<img class="logo" src="images/x-icon.svg">
+				</a>
+			</div>
+		</section>
 	</body>
 </html>
