@@ -81,6 +81,7 @@ a {
 
 .project-container {
 	flex-direction: column;
+	gap: 16px;
 	justify-content: start;
 }
 
@@ -170,6 +171,7 @@ p.handle {
 	.project-container {
 		height: auto;
 		flex-direction: column;
+		gap: 16px;
 		justify-content: start;
 	}
 
@@ -225,6 +227,7 @@ p.handle {
 	.project-container {
 		height: auto;
 		flex-direction: column;
+		gap: 16px;
 		justify-content: start;
 	}
 
@@ -276,6 +279,7 @@ p.handle {
 	.project-container {
 		height: auto;
 		flex-direction: column;
+		gap: 16px;
 		justify-content: start;
 	}
 
@@ -324,6 +328,7 @@ p.handle {
 	.project-container {
 		height: auto;
 		flex-direction: column;
+		gap: 16px;
 		justify-content: start;
 	}
 
